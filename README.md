@@ -17,14 +17,14 @@ Para completar el README siguiendo la estructura sugerida, aquí tienes una guí
    
    #### Distribución de elementos por clase
       A continuación, se muestra la distribución de muestras por cada tipo de supernova en el conjunto de datos utilizado.
-      ![Distribución de elementos por clase](images/distribucion_clases.png)
-      | Clase     | Cantidad de Muestras |
-      |-----------|-----------------------|
-      | **SNIa**  | 1364                 |
-      | **SNII**  | 339                  |
-      | **SNIbc** | 96                   |
-      | **SLSN**  | 24                   |
-      | **Número total de muestras** | 1823 |
+![Distribución de elementos por clase](images/distribucion_clases.png)
+| Clase     | Cantidad de Muestras |
+|-----------|-----------------------|
+| **SNIa**  | 1364                 |
+| **SNII**  | 339                  |
+| **SNIbc** | 96                   |
+| **SLSN**  | 24                   |
+| **Número total de muestras** | 1823 |
 
 ### 5. Pre-procesamiento de datos
 
