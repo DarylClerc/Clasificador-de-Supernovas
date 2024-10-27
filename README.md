@@ -1,5 +1,3 @@
-Para completar el README siguiendo la estructura sugerida, aquí tienes una guía para cada sección:
-
 ### 1. Título y Autores
    - **Título del proyecto**: Clasificación de Supernovas usando Machine Learning.
    - **Autores**: Daryl Clerc, José Luis Espinoza.
@@ -33,9 +31,8 @@ A continuación, se muestra la distribución de muestras por cada tipo de supern
 
 - **Pasos**:
    1. **Inspección y limpieza de datos**: Se revisan los datos para identificar y eliminar valores atípicos o inconsistencias que puedan afectar el rendimiento del modelo.
-   2. **Normalización**: Se aplican técnicas de normalización para escalar las variables y asegurar que todos los datos estén en una misma escala, lo cual es crucial para modelos como el MLP.
-   3. **Selección de variables**: Se realiza una selección de las features más importantes, utilizando las características clave identificadas en la literatura (según el paper de referencia) para garantizar que el modelo trabaje con las variables más relevantes.
-   4. **Transformación de variables**: En algunos casos, se transforman las variables para mejorar la capacidad del modelo de identificar patrones en los datos.
+   2. **Selección de variables**: Se realiza una selección de las features más importantes, utilizando las características clave identificadas en la literatura (según el paper de referencia) para garantizar que el modelo trabaje con las variables más relevantes.
+   3. **Transformación de variables**: En algunos casos, se transforman las variables para mejorar la capacidad del modelo de identificar patrones en los datos.
 
  Este proceso de pre-procesamiento asegura que los datos sean representativos y facilita que el modelo pueda identificar los patrones importantes para la clasificación de supernovas.
 
