@@ -13,11 +13,13 @@ Para completar el README siguiendo la estructura sugerida, aquí tienes una guí
    - **Objetivos específicos**: Incluye preprocesamiento de datos, manejo del desbalance de clases, desarrollo y evaluación de modelos, y análisis de la importancia de features.
 
 ### 4. Base de datos
-   - **Datos a usar**: Este proyecto utiliza curvas de luz obtenidas del **Zwicky Transient Facility (ZTF)**, que incluyen diferentes tipos de supernovas: **SNIa**, **SNII**, **SNIbc**, y **SLSN**.
-   
-   #### Distribución de elementos por clase
-      A continuación, se muestra la distribución de muestras por cada tipo de supernova en el conjunto de datos utilizado.
+- **Datos a usar**: Este proyecto utiliza curvas de luz obtenidas del **Zwicky Transient Facility (ZTF)**, que incluyen diferentes tipos de supernovas: **SNIa**, **SNII**, **SNIbc**, y **SLSN**.
+
+#### Distribución de elementos por clase
+A continuación, se muestra la distribución de muestras por cada tipo de supernova en el conjunto de datos utilizado.
+
 ![Distribución de elementos por clase](images/distribucion_clases.png)
+
 | Clase     | Cantidad de Muestras |
 |-----------|-----------------------|
 | **SNIa**  | 1364                 |
@@ -25,6 +27,7 @@ Para completar el README siguiendo la estructura sugerida, aquí tienes una guí
 | **SNIbc** | 96                   |
 | **SLSN**  | 24                   |
 | **Número total de muestras** | 1823 |
+
 
 ### 5. Pre-procesamiento de datos
 
