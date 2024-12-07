@@ -282,6 +282,8 @@ Los puntos más rojos representan las anomalías con puntajes más altos, indica
 - ![Anomalía 3](images/anomaly3.png)  
 - ![Anomalía 4](images/anomaly4.png)
 
+---
+
 **Curvas de luz correspondientes a anomalías**  
 
 - **SNIa**:  
