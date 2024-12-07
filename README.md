@@ -235,7 +235,7 @@ El modelo **MCSVDD** se evaluó inicialmente para clasificación y detección de
 | SNII   | 0.74      | 0.66   | 0.70     | 68      |
 | SNIbc  | 0.08      | 0.42   | 0.14     | 19      |
 | SLSN   | 0.14      | 0.60   | 0.23     | 5       |
-| **Total** | -       | -      | -        | 365     |
+
 
 | **Métricas globales**  | **Valor** |
 |------------------------|-----------|
@@ -247,13 +247,15 @@ El modelo **MCSVDD** se evaluó inicialmente para clasificación y detección de
 **Matriz de Confusión**  
 ![Matriz de confusión obtenida con el modelo MCSVDD](images/matriz_mcdsvdd.png)
 
+---
+
 **Representaciones en espacios latentes (t-SNE y UMAP)**  
-- Reducción de dimensionalidad con **t-SNE**:  
+- Reducción de dimensionalidad con **t-SNE** luego del primer entrenamiento:  
   ![t-SNE 1](images/tnse1.png)  
-  **Representaciones por clase**:  
-  - Clase SNIa: ![t-SNE 2](images/tnse2.png)  
-  - Clase SNII: ![t-SNE 3](images/tnse3.png)  
-  - Clases combinadas: ![t-SNE 4](images/tnse4.png)
+- Reducción de dimensionalidad con **t-SNE** luego del primer entrenamiento:   
+   ![t-SNE 2](images/tnse2.png)  
+   ![t-SNE 3](images/tnse3.png)  
+   ![t-SNE 4](images/tnse4.png)
 
 - Reducción de dimensionalidad con **UMAP**:  
   ![UMAP 2D](images/umap.png)  
@@ -265,30 +267,13 @@ El modelo **MCSVDD** se evaluó inicialmente para clasificación y detección de
 
 Se calcularon los puntajes de anomalía para cada clase, destacando los puntos más alejados de sus respectivos clusters.  
 
-#### Puntajes de anomalía por clase:
-- **SNIa**:  
-  - Cantidad de elementos: 273  
-  - Puntaje mínimo: 4.8280  
-  - Puntaje máximo: 19.3363  
-  - Puntaje promedio: 7.4219  
+| Clase   | Cantidad de elementos | Puntaje mínimo | Puntaje máximo | Puntaje promedio |
+|---------|------------------------|----------------|----------------|------------------|
+| SNIa    | 273                   | 4.8280         | 19.3363        | 7.4219           |
+| SNII    | 68                    | 5.4444         | 19.4925        | 8.8647           |
+| SNIbc   | 19                    | 5.5860         | 19.3363        | 8.2421           |
+| SLSN    | 5                     | 10.3401        | 18.8913        | 14.6998          |
 
-- **SNII**:  
-  - Cantidad de elementos: 68  
-  - Puntaje mínimo: 5.4444  
-  - Puntaje máximo: 19.4925  
-  - Puntaje promedio: 8.8647  
-
-- **SNIbc**:  
-  - Cantidad de elementos: 19  
-  - Puntaje mínimo: 5.5860  
-  - Puntaje máximo: 19.3363  
-  - Puntaje promedio: 8.2421  
-
-- **SLSN**:  
-  - Cantidad de elementos: 5  
-  - Puntaje mínimo: 10.3401  
-  - Puntaje máximo: 18.8913  
-  - Puntaje promedio: 14.6998  
 
 **Visualización de anomalías**  
 Los puntos más rojos representan las anomalías con puntajes más altos, indicando mayor distancia respecto a sus respectivos clusters:  
